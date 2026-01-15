@@ -46,3 +46,11 @@ while True:
 original_can.release()
 cv2.destroyAllWindows()
 
+#1) Open the video file
+#2) Read one frame at a time in a loop
+#3) Convert each frame to grayscale and make it clearer
+#4) Use hough circles to detect the circular can
+#5) Draw the circle and its center on the frame
+#6) Display the processed frame as a video
+#7) Stop when the video ends or the user quits
+
